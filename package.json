@@ -1,0 +1,22 @@
+{
+  "name": "vrpanda.com",
+  "version": "1.0.0",
+  "description": "VR Panda Main Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRPanda/vrpanda.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRPanda/vrpanda.com/issues"
+  },
+  "homepage": "https://github.com/VRPanda/vrpanda.com#readme",
+  "dependencies": {
+    "punch": "^0.5.46"
+  }
+}
