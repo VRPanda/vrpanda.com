@@ -1,28 +1,77 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-			<title>{{{site-title}}}</title>
-			<meta name="description" content="">
-			<meta name="viewport" content="width=device-width">
+<html lang="en">
 
-			<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 
-			{{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}} 
-    </head>
+    <title>{{{site-title}}}</title>
 
-    <body>
-			<header>
-				<h1>{{#upcase}}{{site-title}}{{/upcase}}</h1>
+    {{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}}
 
-				<ul class="navbar">
-				{{#navbar}}
-					<li><a href="{{{href}}}">{{label}}</a>
-				{{/navbar}}
-				</ul>
-			</header>
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!--headerIncludes-->
+
+</head>
+<body>
+
+    <header class="item header margin-top-0 padding-bottom-70" id="header1">
+
+        <div class="wrapper">
+
+            <div class="container">
+
+                <nav role="navigation" class="navbar navbar-default navbar-lg navbar-fixed-top">
+
+                    <div class="container">
+
+                        <div class="navbar-header">
+                            <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <a href="#" class="navbar-brand brand"><img src="/images/vr-panda-logo.png" id="logo"/></a>
+                        </div>
+
+                        <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#intro">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#pricing_table1">Pricing</a></li>
+                                <li><a href="#portfolio">Showcase</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+
+                    </div><!-- /.container -->
+
+                </nav>
+
+            </div><!-- /.container -->
+
+        </div><!-- /.wrapper -->
+
+    </header><!-- /.item -->
