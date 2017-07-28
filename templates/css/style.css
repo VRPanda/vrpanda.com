@@ -808,11 +808,11 @@ h3.intro-subtitle2{
 .intro3{
 	padding:150px 0 150px 0;
 	text-align:center;
-	background-image: url(../images/vr-dude-lg.jpg);
+	background-image: url(../images/vr-dude-lg.png);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
-    background-size: cover;
+    
 	background-color: rgba(0, 0, 0, 0);
 	/*background: url(../images/picture1.jpg) no-repeat scroll 50% 50% / cover  rgba(0, 0, 0, 0);*/
 }
